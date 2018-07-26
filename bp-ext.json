@@ -40,17 +40,11 @@
             "network": "jungle",
             "producer_account_name":"junglemorpho",
 	        "producer_public_key":"EOS796kTMQF9sTjFz6cRftBXpxfH4aRSkSt9XSUV9hRxyxFkVgA2y"
-		 },
-		 { 
-            "network": "jungle",
-            "producer_account_name":"morphojungle",
-	        "producer_public_key":"otro"
-         }
-		 
+		 }
     ],
 	"nodes":[
 		{
-            "name": "node1",
+            "name": "CostaRicaFN1",
             "network":"mainnet",
 			"location":{
 				"name":"San Jose",
@@ -65,7 +59,7 @@
 			"ssl_endpoint":"https://api.eosio.cr"
 		},
 		{
-            "name": "node2",
+            "name": "CostaRicaFN2",
             "network":"mainnet",
 			"location":{
 				"name":"San Jose",
@@ -80,7 +74,7 @@
 			"ssl_endpoint":""
 		},
 		{
-            "name": "node3",
+            "name": "CostaRicaBP1",
             "network":"mainnet",
 			"location":{
 				"name":"San Jose",
@@ -95,9 +89,8 @@
 			"ssl_endpoint":""
         },
         {
-            "name": "jungleNode1",
+            "name": "CostaRicaBP1",
 			"network":"jungle",
-			"account_name": "morphojungle",
 			"location":{
 				"name":"San Jose",
 				"country":"CR",
@@ -111,20 +104,19 @@
 			"ssl_endpoint":""
 		},
 		{
-            "name": "jungleNode2",
+            "name": "CostaRicaFN1",
 			"network":"jungle",
-			"account_name": "junglemorpho",
 			"location":{
 				"name":"San Jose",
 				"country":"CR",
 				"latitude":9.936377,
 				"longitude":-84.078155
 			},
-			"node_type":["producer"],
-			"p2p_endpoint":"",
-			"bnet_endpoint":"",
+			"node_type":["full"],
+			"p2p_endpoint":"test-p2p.eosio.cr:2086",
+			"bnet_endpoint":"test-p2p.eosio.cr:44517",
 			"api_endpoint":"",
-			"ssl_endpoint":""
+			"ssl_endpoint":"jungle.eosio.cr:443"
 		}
 	]
 }
