@@ -32,17 +32,17 @@
     },
     "accounts":[
         { 
-            "chain_id": "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+            "network": "mainnet",
             "producer_account_name":"costaricaeos",
 	        "producer_public_key":"EOS7phU8qE6nPCfpkCQ2T3HmRwGg6z4v61RTLvPBBVmPWmPisZoWY"
          },
          { 
-            "chain_id": "038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca",
+            "network": "jungle",
             "producer_account_name":"junglemorpho",
 	        "producer_public_key":"EOS796kTMQF9sTjFz6cRftBXpxfH4aRSkSt9XSUV9hRxyxFkVgA2y"
 		 },
 		 { 
-            "chain_id": "038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca",
+            "network": "jungle",
             "producer_account_name":"morphojungle",
 	        "producer_public_key":"otro"
          }
@@ -51,7 +51,7 @@
 	"nodes":[
 		{
             "name": "node1",
-            "chain_id":"aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+            "network":"mainnet",
 			"location":{
 				"name":"San Jose",
 				"country":"CR",
@@ -66,7 +66,7 @@
 		},
 		{
             "name": "node2",
-            "chain_id":"aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+            "network":"mainnet",
 			"location":{
 				"name":"San Jose",
 				"country":"CR",
@@ -81,7 +81,7 @@
 		},
 		{
             "name": "node3",
-            "chain_id":"aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+            "network":"mainnet",
 			"location":{
 				"name":"San Jose",
 				"country":"CR",
@@ -96,7 +96,7 @@
         },
         {
             "name": "jungleNode1",
-			"chain_id":"038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca",
+			"network":"jungle",
 			"account_name": "morphojungle",
 			"location":{
 				"name":"San Jose",
@@ -112,7 +112,7 @@
 		},
 		{
             "name": "jungleNode2",
-			"chain_id":"038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca",
+			"network":"jungle",
 			"account_name": "junglemorpho",
 			"location":{
 				"name":"San Jose",
