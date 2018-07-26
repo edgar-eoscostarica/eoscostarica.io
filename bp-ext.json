@@ -1,0 +1,107 @@
+{
+	"producer_account_name":"costaricaeos",
+	"producer_public_key":"EOS7phU8qE6nPCfpkCQ2T3HmRwGg6z4v61RTLvPBBVmPWmPisZoWY",
+	"org":{
+		"candidate_name":"EOS Costa Rica",
+		"website":"https://eoscostarica.io",
+		"code_of_conduct":"https://eoscostarica.io/code-of-conduct.html",
+		"ownership_disclosure":"https://eoscostarica.io/ownership-disclosure.html",
+		"email":"bp@eosio.cr",
+		"branding":{
+			"logo_256":"https://eoscostarica.io/assets/eos-CostaRica-256x256.png",
+			"logo_1024":"https://eoscostarica.io/assets/eos-CostaRica-1024x1024.png",
+			"logo_svg":"https://eoscostarica.io/assets/eos-CostaRica-vectors.svg"
+		},
+		"location":{
+			"name":"San Jose",
+			"country":"CR",
+			"latitude":9.936377,
+			"longitude":-84.078155
+		},
+		"social":{
+			"steemit":"eos-costarica",
+			"twitter":"EOSCostaRica",
+			"youtube":"channel/UCvYinCH3O1iKpi-_dNfQAGQ",
+			"facebook":"",
+			"github":"eoscostarica",
+			"reddit":"",
+			"keybase":"eoscostarica",
+			"telegram":"eoscr",
+			"wechat":""
+		}
+    },
+    "accounts":[
+        { 
+            "chain_id": "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+            "producer_account_name":"costaricaeos",
+	        "producer_public_key":"EOS7phU8qE6nPCfpkCQ2T3HmRwGg6z4v61RTLvPBBVmPWmPisZoWY",
+         },
+         { 
+            "chain_id": "038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca",
+            "producer_account_name":"junglemorpho",
+	        "producer_public_key":"EOS796kTMQF9sTjFz6cRftBXpxfH4aRSkSt9XSUV9hRxyxFkVgA2y",
+         }
+    ],
+	"nodes":[
+		{
+            "name": "node1",
+            "chain_id":"aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+			"location":{
+				"name":"San Jose",
+				"country":"CR",
+				"latitude":9.936377,
+				"longitude":-84.078155
+			},
+			"node_type":"full",
+			"p2p_endpoint":"p2p.eosio.cr:1976",
+			"bnet_endpoint":"p2p.eosio.cr:20747",
+			"api_endpoint":"",
+			"ssl_endpoint":"https://api.eosio.cr"
+		},
+		{
+            "name": "node2",
+            "chain_id":"aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+			"location":{
+				"name":"San Jose",
+				"country":"CR",
+				"latitude":9.936377,
+				"longitude":-84.078155
+			},
+			"node_type":"full",
+			"p2p_endpoint":"p2p.eosio.cr:5418",
+			"bnet_endpoint":"p2p.eosio.cr:23881",
+			"api_endpoint":"",
+			"ssl_endpoint":""
+		},
+		{
+            "name": "node3",
+            "chain_id":"aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906",
+			"location":{
+				"name":"San Jose",
+				"country":"CR",
+				"latitude":9.936377,
+				"longitude":-84.078155
+			},
+			"node_type":"producer",
+			"p2p_endpoint":"",
+			"bnet_endpoint":"",
+			"api_endpoint":"",
+			"ssl_endpoint":""
+        },
+        {
+            "name": "jungleNode1",
+            "chain_id":"038f4b0fc8ff18a4f0842a8f0564611f6e96e8535901dd45e43ac8691a1c4dca",
+			"location":{
+				"name":"San Jose",
+				"country":"CR",
+				"latitude":9.936377,
+				"longitude":-84.078155
+			},
+			"node_type":"producer",
+			"p2p_endpoint":"",
+			"bnet_endpoint":"",
+			"api_endpoint":"",
+			"ssl_endpoint":""
+		}
+	]
+}
